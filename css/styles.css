@@ -14,11 +14,11 @@
     padding: 0;
 }
 
-body {
-    font-size: 1.1em;
-    font-family: Arial, Helvetica, sans-serif;
-	background-color: white;
+body { font-size: 1.1em;
+	font-family: Arial, Helvetica, sans-serif;
+	 background-image: url("background.png");
 }
+
 
 #container {
     width: 930px;
@@ -143,4 +143,9 @@ footer a:visited {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+table, th, td {
+  border: 1px solid;
+  width: 100%;
 }
